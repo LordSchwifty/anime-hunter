@@ -16,6 +16,7 @@ class App extends Component {
      < div className="App">
       <Navbar />
       <Search />
+      <Top movies={this.state.topAnime}/>
      </div>
     )
   }

@@ -11,7 +11,7 @@ const Search = () => {
               name='title'
               value='title'
               />
-            <button>SUBMIT</button>
+            <button className='submit-btn'>SUBMIT</button>
         </form>
        </div> 
     )
