@@ -1,4 +1,7 @@
 import './App.css';
+import Navbar from '../Navbar/Navbar'
+import Search from '../Search/Search'
+import Top from '../Top/Top'
 import React, { Component } from 'react'
 
 class App extends Component {
@@ -12,6 +15,7 @@ class App extends Component {
     return (
      < div className="App">
       <Navbar />
+      <Search />
       <Top />
      </div>
     )
