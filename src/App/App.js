@@ -23,8 +23,11 @@ import { useState, useEffect } from 'react';
   const searchAnimeMovies = (searchValue) => {
     searchMovies(searchValue)
     .then(data => {
+      let searchData = data.data.filter(info => {
+        return info.title.toLowerCase().includes(searchValue.toLowerCase())
+      })
       console.log(data)
-      setSearchAnime(data.data)
+      setSearchAnime(searchData)
     })
   }
 

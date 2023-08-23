@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Tilt+Prism&display=swap');
+
 .header-section {
     display: flex;
     justify-content: center;
+    background-color: black;
+}
+
+.main-title {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 90px;
+    color: whitesmoke
+
 }
