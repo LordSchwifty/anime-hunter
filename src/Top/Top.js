@@ -5,7 +5,7 @@ import Movie from '../Movie/Movie'
 const Top = ({ movies }) => {
     
     const movieData = movies.map((movie, index) => {
-        return <Movie key={`all${index}`} title={movie.title} image={movie.images.jpg.image_url} rating={movie.score} year={movie.year} />
+        return <Movie key={`all${index}`} title={movie.title_english} image={movie.images.jpg.image_url} rating={movie.score} year={movie.year} />
     })
 
     return (

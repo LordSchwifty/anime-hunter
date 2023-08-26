@@ -24,7 +24,7 @@ import { useState, useEffect } from 'react';
     searchMovies(searchValue)
     .then(data => {
       let searchData = data.data.filter(info => {
-        return info.title.toLowerCase().includes(searchValue.toLowerCase())
+        return info.title_english.toLowerCase().includes(searchValue.toLowerCase())
       })
       console.log(data)
       setSearchAnime(searchData)
