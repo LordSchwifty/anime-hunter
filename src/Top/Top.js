@@ -9,9 +9,9 @@ const Top = ({ movies }) => {
     })
 
     return (
-        <div className='movie-section'>
+        <section className='movie-section'>
            {movieData}
-        </div>
+        </section>
     )
 }
 
